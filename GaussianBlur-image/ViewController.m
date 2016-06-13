@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+ImageEffects.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    UIImage *image = [UIImage imageNamed:@"3.jpg"];
+    UIImageView *imageV = [[UIImageView alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width)];
+    imageV.image = [image applyDarkEffect];
+    [self.view addSubview:imageV];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

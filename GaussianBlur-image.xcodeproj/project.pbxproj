@@ -13,6 +13,8 @@
 		3543C6121D0E90D6000979BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3543C6101D0E90D6000979BE /* Main.storyboard */; };
 		3543C6141D0E90D6000979BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3543C6131D0E90D6000979BE /* Assets.xcassets */; };
 		3543C6171D0E90D6000979BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3543C6151D0E90D6000979BE /* LaunchScreen.storyboard */; };
+		3543C6201D0E91D6000979BE /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3543C61F1D0E91D6000979BE /* UIImage+ImageEffects.m */; };
+		3543C6241D0E945D000979BE /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3543C6231D0E945D000979BE /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		3543C6131D0E90D6000979BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3543C6161D0E90D6000979BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3543C6181D0E90D6000979BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3543C61E1D0E91D6000979BE /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		3543C61F1D0E91D6000979BE /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		3543C6231D0E945D000979BE /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,13 @@
 		3543C6061D0E90D6000979BE /* GaussianBlur-image */ = {
 			isa = PBXGroup;
 			children = (
+				3543C61E1D0E91D6000979BE /* UIImage+ImageEffects.h */,
+				3543C61F1D0E91D6000979BE /* UIImage+ImageEffects.m */,
 				3543C60A1D0E90D6000979BE /* AppDelegate.h */,
 				3543C60B1D0E90D6000979BE /* AppDelegate.m */,
 				3543C60D1D0E90D6000979BE /* ViewController.h */,
 				3543C60E1D0E90D6000979BE /* ViewController.m */,
+				3543C6231D0E945D000979BE /* 3.jpg */,
 				3543C6101D0E90D6000979BE /* Main.storyboard */,
 				3543C6131D0E90D6000979BE /* Assets.xcassets */,
 				3543C6151D0E90D6000979BE /* LaunchScreen.storyboard */,
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3543C6241D0E945D000979BE /* 3.jpg in Resources */,
 				3543C6171D0E90D6000979BE /* LaunchScreen.storyboard in Resources */,
 				3543C6141D0E90D6000979BE /* Assets.xcassets in Resources */,
 				3543C6121D0E90D6000979BE /* Main.storyboard in Resources */,
@@ -149,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3543C6201D0E91D6000979BE /* UIImage+ImageEffects.m in Sources */,
 				3543C60F1D0E90D6000979BE /* ViewController.m in Sources */,
 				3543C60C1D0E90D6000979BE /* AppDelegate.m in Sources */,
 				3543C6091D0E90D6000979BE /* main.m in Sources */,
@@ -300,6 +310,7 @@
 				3543C61D1D0E90D6000979BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
